@@ -21,24 +21,24 @@ Use this section to quickly find key components of the repository.
 
 functional-solutions/
 ├── industry/
-│   └── travel-hospitality/
-│       ├── guest360/
-│       │   ├── docs/
-│       │   ├── code/
-│       │   └── examples/
-│       └── other-solution/
+│ └── travel-hospitality/
+│ ├── guest360/
+│ │ ├── docs/
+│ │ ├── code/
+│ │ └── examples/
+│ └── other-solution/
 │
 ├── cross-industry/
-│   ├── forecasting/
-│   │   ├── docs/
-│   │   ├── code/
-│   │   └── examples/
-│   └── anomaly-detection/
+│ ├── forecasting/
+│ │ ├── docs/
+│ │ ├── code/
+│ │ └── examples/
+│ └── anomaly-detection/
 │
 ├── shared-resources/
-│   ├── utilities/
-│   ├── data-models/
-│   └── templates/
+│ ├── utilities/
+│ ├── data-models/
+│ └── templates/
 │
 └── README.md
 
