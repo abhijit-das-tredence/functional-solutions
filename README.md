@@ -1,69 +1,75 @@
 # Functional Solutions
 
-This repository contains **enterprise-ready functional solution modules** that implement domain-specific logic for data and AI use cases. The purpose of this repo is to organize, document, and support delivery-grade solutions that can be reused across engagements.
+This repository contains functional, domain-aligned and cross-industry solution implementations, along with shared reusable assets.
 
-## Navigation
-
-Use this section to quickly find key components of the repository.
-
-### Core Solution Areas
-
-- **Industry Solutions**  
-  Domain-specific solutions tailored to industry verticals (e.g., Travel & Hospitality, Retail, BFSI).
-
-- **Cross-Industry Solutions**  
-  Reusable analytical and data products that apply across industries.
-
-- **Use Case Implementations**  
-  Implementation projects aligned with defined analytical use cases (e.g., customer 360, churn, forecasting).
-
-### Folder Structure Overview
-
-functional-solutions/
-├── industry/
-│ └── travel-hospitality/
-│ ├── guest360/
-│ │ ├── docs/
-│ │ ├── code/
-│ │ └── examples/
-│ └── other-solution/
-│
-├── cross-industry/
-│ ├── forecasting/
-│ │ ├── docs/
-│ │ ├── code/
-│ │ └── examples/
-│ └── anomaly-detection/
-│
-├── shared-resources/
-│ ├── utilities/
-│ ├── data-models/
-│ └── templates/
-│
-└── README.md
-
-
-
-## How to Use This Repository
-
-### Browse Solutions
-
-Each folder contains one solution or use case implementation. Explore:
-
-- `/industry/<vertical>/<solution>` — Full implementation for that domain.
-- `/cross-industry/<solution>` — Shared solutions applicable across industry contexts.
-- `/shared-resources/` — Helper code, data models, utilities and templates used by multiple solutions.
-
-Each solution should contain:
-
-<solution-name>/
-├── docs/ # Concept, design, architecture
-├── code/ # Implementation scripts/notebooks
-├── examples/ # Sample data + run examples
-└── README.md # Solution entry point
-
+Use this page as the **navigation entry point**.
 
 ---
+
+## Repository Structure
+
+---
+
+## Industry Solutions
+
+### Travel & Hospitality
+ [`industry/travel-hospitality`](./industry/travel-hospitality)
+
+- **Guest 360**  
+  [`industry/travel-hospitality/guest360`](./industry/travel-hospitality/guest360)  
+  - Docs → [`docs`](./industry/travel-hospitality/guest360/docs)  
+  - Code → [`code`](./industry/travel-hospitality/guest360/code)  
+  - Examples → [`examples`](./industry/travel-hospitality/guest360/examples)
+
+- **Other Solution**  
+  [`industry/travel-hospitality/other-solution`](./industry/travel-hospitality/other-solution)
+
+---
+
+## Cross-Industry Solutions
+
+[`cross-industry`](./cross-industry)
+
+- **Forecasting**  
+  [`cross-industry/forecasting`](./cross-industry/forecasting)  
+  - Docs → [`docs`](./cross-industry/forecasting/docs)  
+  - Code → [`code`](./cross-industry/forecasting/code)  
+  - Examples → [`examples`](./cross-industry/forecasting/examples)
+
+- **Anomaly Detection**  
+  [`cross-industry/anomaly-detection`](./cross-industry/anomaly-detection)
+
+---
+
+## Shared Resources
+
+[`shared-resources`](./shared-resources)
+
+- Utilities → [`utilities`](./shared-resources/utilities)  
+- Data Models → [`data-models`](./shared-resources/data-models)  
+- Templates → [`templates`](./shared-resources/templates)
+
+---
+
+## How to use this repo
+
+- Start from **Industry** for business-aligned solutions  
+- Start from **Cross-Industry** for reusable functional capabilities  
+- Use **Shared Resources** for common code, models, and templates  
+- Each solution folder should treat its own `docs/` as the main entry point
+
+---
+
+## Contribution rule
+
+- New domain solutions → `industry/`
+- New reusable solutions → `cross-industry/`
+- Shared logic only → `shared-resources/`
+- Avoid duplicating utilities across solutions
+
+---
+
+> This repository is part of the organization’s functional solution IP and delivery acceleration initiative.
 
 ## Getting Started
 
